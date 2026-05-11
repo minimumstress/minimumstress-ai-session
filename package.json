@@ -9,16 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.5"
+    "@d-id/client-sdk": "^1.1.59",
+    "@daily-co/daily-js": "^0.82.0",
+    "@google-cloud/text-to-speech": "^6.2.0",
+    "@google/generative-ai": "^0.24.1",
+    "@heygen/streaming-avatar": "^2.1.0",
+    "@prisma/client": "^6.13.0",
+    "@supabase/supabase-js": "^2.104.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "next": "^16.2.4",
+    "openai": "^5.12.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "prisma": "^6.13.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
